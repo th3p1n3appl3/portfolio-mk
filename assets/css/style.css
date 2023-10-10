@@ -147,7 +147,7 @@ a:hover {
 
 /* Hero section */
 
-.hero-container {
+.section-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -155,13 +155,13 @@ a:hover {
     background-color: #95e66454;
 }
 
-.hero-text-1 {
+.section-text-1 {
     display: flex;
     justify-content: flex-start;
     font-size: large;
 }
 
-.hero-title {
+.section-title {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -177,6 +177,70 @@ a:hover {
     
 }
 
-.hero-text-2 {
+.section-text-2 {
     font-size: medium;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button-1 {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.about {
+    display: flex;
+}
+
+#about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.filler {
+    display: flex;
+    flex-grow: 2;
+    min-width: 600px;
+    justify-content: space-between;
+}
+
+.about-title {
+    display: flex;
+    font-size: xx-large;
+    margin: 30px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.about-picture {
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 40px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.about-experience, .about-education {
+    max-width: 30%;
+
 }
