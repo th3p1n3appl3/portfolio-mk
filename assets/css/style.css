@@ -16,7 +16,7 @@ html {
 }
 
 p {
-    color: rgb(232, 166, 166)
+    color: black;
 }
 
 /* Smooth transition */
@@ -24,6 +24,8 @@ p {
 a, .button {
     transition: all 300ms ease;
 }
+
+/* Desktop navigation  */
 
 nav, .nav-links {
     display: flex;
@@ -63,7 +65,7 @@ a:hover {
     cursor: default;
 }
 
-/* Mobile Menu */
+/* Mobile Navigation */
 
 #mobile-nav {
     display:none;
@@ -143,3 +145,38 @@ a:hover {
     transform: none;
 }
 
+/* Hero section */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #95e66454;
+}
+
+.hero-text-1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 40px;
+}
+
+.hero-picture {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 40px;
+    
+}
+
+.hero-text-2 {
+    font-size: medium;
+}
