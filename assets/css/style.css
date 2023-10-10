@@ -174,7 +174,7 @@ a:hover {
     height: auto;
     margin: 0;
     padding: 40px;
-    
+    border-radius: 2rem;
 }
 
 .section-text-2 {
@@ -185,6 +185,10 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+.button-container:hover {
+    cursor: pointer:
 }
 
 .button-1 {
@@ -221,9 +225,11 @@ a:hover {
 
 .about-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-
+    flex-direction: row;
+    align-items: center;
+    border-right-color: black;
+    border-width: 20px;
 }
 
 .about-picture {
@@ -234,9 +240,10 @@ a:hover {
     padding: 40px;
 }
 
+
+
 .about-info {
     display: flex;
-    flex-direction: column;
     max-width: 50%;
 }
 
@@ -244,3 +251,71 @@ a:hover {
     max-width: 30%;
 
 }
+
+h1 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    flex: 1 200px;
+  }
+  
+  article:nth-of-type(3) {
+    flex: 3 200px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  /* Experience */
+
+.experience {
+    display: flex;
+    justify-content: center;
+    flex-direction: column:
+}
+
+.experience-container {
+    display: flex;
+}
+
+.experience-box {
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: 
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#95e66454;
+}
+
+.about-container h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.project-picture {
+        display: flex;
+        max-width: 50%;
+        height: auto;
+        margin: 0;
+        padding: 40px;
+}
+
+/* Icons */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  
