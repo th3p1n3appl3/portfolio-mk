@@ -304,6 +304,8 @@ article {
 
 }
 
+/* Project section */
+
 .project-picture {
         display: flex;
         max-width: 50%;
@@ -312,6 +314,9 @@ article {
         padding: 40px;
 }
 
+.project-1 {
+
+}
 /* Icons */
 
 .icon {
@@ -319,3 +324,22 @@ article {
     height: 2rem;
   }
   
+
+  /* Contact  */
+
+  .contact-box {
+    padding: 1.5rem;
+    justify-content: center;
+    max-width: 100%;
+    flex: 1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+  }
+
+  .contact-box img {
+    max-width: 20%;
+    max-heightL 20%;
+    width: auto;
+    heigth: auto;
+  }
