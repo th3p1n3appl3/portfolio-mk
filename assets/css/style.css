@@ -328,6 +328,7 @@ article {
   /* Contact  */
 
   .contact-box {
+    display: flex;
     padding: 1.5rem;
     justify-content: center;
     max-width: 100%;
@@ -343,3 +344,4 @@ article {
     width: auto;
     heigth: auto;
   }
+
